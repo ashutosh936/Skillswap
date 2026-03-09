@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      # MONGODB and other secrets should be injected via .env file or environment variables
+      # Please ensure your .env file is present in the backend directory or map it here:
+      # env_file:
+      #   - ./backend/.env
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80" # Mapping the Nginx container port 80 to localhost:5173
+    depends_on:
+      - backend
+    restart: unless-stopped
