@@ -4,7 +4,7 @@ import useAuthStore from '../store/authStore';
 import { Send, Users, Video } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect(import.meta.env.VITE_API_URL || "http://localhost:5000");
 
 const Chat = () => {
     const { user } = useAuthStore();

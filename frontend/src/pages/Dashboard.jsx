@@ -252,7 +252,7 @@ const Dashboard = () => {
                     if (isSelected) return;
                     try {
                       const config = { headers: { Authorization: `Bearer ${token}` } };
-                      await axios.post('http://localhost:5000/api/users/update-profile', { avatar: avatarPath }, config);
+                      await axios.post(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/users/update-profile`, { avatar: avatarPath }, config);
                       updateUser({ avatar: avatarPath });
                     } catch (err) {
                       console.error('Failed to set avatar:', err);

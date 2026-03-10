@@ -40,7 +40,7 @@ const AiMentorBot = () => {
 
             const config = { headers: { Authorization: `Bearer ${token}` } };
             const response = await axios.post(
-                'http://localhost:5000/api/ai/chat',
+                `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/ai/chat`,
                 { messages: chatHistory },
                 config
             );

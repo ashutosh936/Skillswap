@@ -26,7 +26,7 @@ const Login = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const response = await axios.post(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/auth/login`, formData);
       login(response.data, response.data.token);
       navigate('/buy-credits');
     } catch (err) {

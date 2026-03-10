@@ -36,7 +36,7 @@ const ProfileModal = ({ isOpen, onClose }) => {
           Authorization: `Bearer ${token}`
         }
       };
-      const response = await axios.put('http://localhost:5000/api/users/profile/skills', {
+      const response = await axios.put(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/users/profile/skills`, {
         skillsTaught: taughtSkills,
         skillsLearning: learningSkills,
       }, config);
