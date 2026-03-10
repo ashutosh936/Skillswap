@@ -30,7 +30,7 @@ const aiChat = async (req, res) => {
                 messages: [
                     {
                         role: 'system',
-                        content: `You are an AI Peer Learning Mentor on the SkillSwap platform. You help users:
+                        content: `You are an AI Peer Learning Mentor on the PeerLoom platform. You help users:
 1. Find the best learning paths for their goals.
 2. Debug code snippets they paste.
 3. Recommend trending skills based on market demand.
@@ -85,7 +85,7 @@ function getSmartMockResponse(query) {
     if (q.includes('skill') || q.includes('trend') || q.includes('market') || q.includes('learn'))
         return "Based on current market trends, here are the hottest skills for 2026: 🔥\n\n1. **AI/LLM Integration** (LangChain, RAG pipelines)\n2. **TypeScript** — now required at most top companies\n3. **System Design** — critical for senior roles\n4. **Rust/Go** — growing fast in infrastructure\n5. **Next.js/Remix** — modern full-stack frameworks\n\nWould you like me to recommend a mentor who specializes in any of these?";
 
-    return "That's a great question! 🎯 On SkillSwap, you have several options:\n\n1. **Find a Mentor** — Browse our Explore page for experts in your topic\n2. **Join a Community** — Peer-learning groups for collaborative study\n3. **Marketplace Courses** — Unlock structured courses with your credits\n4. **1-on-1 Video Sessions** — Deep-dive with a real mentor\n\nWhat specific topic would you like to explore? I can give you a personalized learning roadmap!";
+    return "That's a great question! 🎯 On PeerLoom, you have several options:\n\n1. **Find a Mentor** — Browse our Explore page for experts in your topic\n2. **Join a Community** — Peer-learning groups for collaborative study\n3. **Marketplace Courses** — Unlock structured courses with your credits\n4. **1-on-1 Video Sessions** — Deep-dive with a real mentor\n\nWhat specific topic would you like to explore? I can give you a personalized learning roadmap!";
 }
 
 module.exports = { aiChat };

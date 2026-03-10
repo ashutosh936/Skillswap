@@ -19,7 +19,7 @@ const AVATARS = [
 const dummyMentors = [
     {
         username: 'aneka_dev',
-        email: 'aneka@skillswap.dev',
+        email: 'aneka@peerloom.dev',
         password: 'password123',
         skillsTaught: ['React', 'TypeScript', 'Next.js'],
         skillsLearning: ['Rust', 'System Design'],
@@ -37,7 +37,7 @@ const dummyMentors = [
     },
     {
         username: 'marcus_stack',
-        email: 'marcus@skillswap.dev',
+        email: 'marcus@peerloom.dev',
         password: 'password123',
         skillsTaught: ['Node.js', 'MongoDB', 'Express', 'Docker'],
         skillsLearning: ['Kubernetes', 'AWS'],
@@ -54,7 +54,7 @@ const dummyMentors = [
     },
     {
         username: 'priya_design',
-        email: 'priya@skillswap.dev',
+        email: 'priya@peerloom.dev',
         password: 'password123',
         skillsTaught: ['UI Design', 'Figma', 'Design Systems'],
         skillsLearning: ['React', 'Framer Motion'],
@@ -72,7 +72,7 @@ const dummyMentors = [
     },
     {
         username: 'chen_ai',
-        email: 'chen@skillswap.dev',
+        email: 'chen@peerloom.dev',
         password: 'password123',
         skillsTaught: ['Python', 'Machine Learning', 'TensorFlow', 'Data Science'],
         skillsLearning: ['LLMs', 'LangChain'],
@@ -91,7 +91,7 @@ const dummyMentors = [
     },
     {
         username: 'sofia_web3',
-        email: 'sofia@skillswap.dev',
+        email: 'sofia@peerloom.dev',
         password: 'password123',
         skillsTaught: ['Solidity', 'Web3', 'Blockchain', 'Smart Contracts'],
         skillsLearning: ['Rust', 'Zero Knowledge'],
@@ -108,7 +108,7 @@ const dummyMentors = [
     },
     {
         username: 'kai_fullstack',
-        email: 'kai@skillswap.dev',
+        email: 'kai@peerloom.dev',
         password: 'password123',
         skillsTaught: ['JavaScript', 'React', 'Node.js', 'PostgreSQL'],
         skillsLearning: ['Go', 'GraphQL'],
@@ -126,7 +126,7 @@ const dummyMentors = [
     },
     {
         username: 'aisha_cloud',
-        email: 'aisha@skillswap.dev',
+        email: 'aisha@peerloom.dev',
         password: 'password123',
         skillsTaught: ['AWS', 'DevOps', 'CI/CD', 'Terraform'],
         skillsLearning: ['Platform Engineering', 'Pulumi'],
@@ -143,7 +143,7 @@ const dummyMentors = [
     },
     {
         username: 'liam_mobile',
-        email: 'liam@skillswap.dev',
+        email: 'liam@peerloom.dev',
         password: 'password123',
         skillsTaught: ['React Native', 'Flutter', 'iOS', 'Swift'],
         skillsLearning: ['Kotlin', 'AR Development'],
@@ -160,7 +160,7 @@ const dummyMentors = [
     },
     {
         username: 'yuki_security',
-        email: 'yuki@skillswap.dev',
+        email: 'yuki@peerloom.dev',
         password: 'password123',
         skillsTaught: ['Cybersecurity', 'Ethical Hacking', 'Network Security'],
         skillsLearning: ['Cloud Security', 'Zero Trust'],
@@ -177,7 +177,7 @@ const dummyMentors = [
     },
     {
         username: 'zara_data',
-        email: 'zara@skillswap.dev',
+        email: 'zara@peerloom.dev',
         password: 'password123',
         skillsTaught: ['SQL', 'Data Analysis', 'Power BI', 'Excel'],
         skillsLearning: ['Python', 'Machine Learning'],

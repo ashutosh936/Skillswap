@@ -25,7 +25,7 @@ const Communities = () => {
     const mockCommunities = [
         { 
             id: 1, name: "React Enthusiasts", members: 1240, icon: <Code />, color: "border-blue-500/50", bg: "bg-blue-500/10", text: "text-blue-500", gradient: "from-blue-600/20 to-blue-900/40",
-            description: "The largest React community on SkillSwap. Discuss hooks, components, performance optimization, and the latest React ecosystem updates.",
+            description: "The largest React community on PeerLoom. Discuss hooks, components, performance optimization, and the latest React ecosystem updates.",
             courses: [
                 { title: "Advanced React Patterns", duration: "2h", level: "Advanced" },
                 { title: "React Performance Deep Dive", duration: "1.5h", level: "Intermediate" },

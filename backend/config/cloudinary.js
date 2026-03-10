@@ -11,7 +11,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
     cloudinary,
     params: {
-        folder: 'skillswap-avatars',
+        folder: 'peerloom-avatars',
         allowed_formats: ['jpg', 'jpeg', 'png', 'gif', 'webp'],
         transformation: [{ width: 400, height: 400, crop: 'fill', gravity: 'face' }],
     },

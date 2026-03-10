@@ -42,7 +42,7 @@ const Home = () => {
         {/* Features Grid */}
         <div className="py-20">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why SkillSwap?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why PeerLoom?</h2>
             <p className="text-slate-400 text-lg">A completely new way to trade knowledge.</p>
           </div>
 

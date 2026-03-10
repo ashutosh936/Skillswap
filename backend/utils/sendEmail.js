@@ -14,7 +14,7 @@ const sendEmail = async (options) => {
         });
 
         const message = {
-            from: `${process.env.FROM_NAME || 'SkillSwap Admin'} <${process.env.FROM_EMAIL || 'noreply@skillswap.io'}>`,
+            from: `${process.env.FROM_NAME || 'PeerLoom Admin'} <${process.env.FROM_EMAIL || 'noreply@peerloom.io'}>`,
             to: options.email,
             subject: options.subject,
             text: options.message,

@@ -30,7 +30,7 @@ const BuyCredits = () => {
         { 
             id: 'unlimited', name: 'Infinite Growth', credits: 3000, price: '₹1,999', rawPrice: 1999,
             popular: false, icon: <Sparkles className="w-8 h-8 text-emerald-400" />,
-            features: ['Lifetime Access', 'SkillSwap Swag', 'Featured Mentor List', 'Max XP Multiplier']
+            features: ['Lifetime Access', 'PeerLoom Swag', 'Featured Mentor List', 'Max XP Multiplier']
         },
     ];
 

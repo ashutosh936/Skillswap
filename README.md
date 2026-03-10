@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="./frontend/public/vite.svg" alt="SkillSwap Logo" width="100" />
-  <h1>🚀 SkillSwap</h1>
+  <img src="./frontend/public/vite.svg" alt="PeerLoom Logo" width="100" />
+  <h1>🚀 PeerLoom</h1>
   <p><strong>A modern career platform and collaboration hub where users can share skills, find mentors, join communities, and build projects together.</strong></p>
 </div>
 
 <br/>
 
 ## 🌟 Overview
-SkillSwap is a full-stack web application designed to help individuals grow their careers through collaborative learning. Whether you want to learn a new programming language, find a mentor in UX design, or team up for a hackathon, SkillSwap provides the tools to connect and collaborate.
+PeerLoom is a full-stack web application designed to help individuals grow their careers through collaborative learning. Whether you want to learn a new programming language, find a mentor in UX design, or team up for a hackathon, PeerLoom provides the tools to connect and collaborate.
 
 ## ✨ Key Features
 - **User Authentication:** Secure email-based registration and login system.
@@ -50,8 +50,8 @@ To run this project locally on your machine, follow these steps:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com//skillswap.git
-cd skillswap
+git clone https://github.com/ashutosh936/Skillswap.git
+cd Skillswap
 ```
 
 ### 2. Setup the Backend

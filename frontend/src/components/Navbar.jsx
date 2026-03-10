@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className="flex items-center gap-2">
             <Sparkles className="h-8 w-8 text-primary-500" />
             <Link to={isAuthenticated ? "/dashboard" : "/"} className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-emerald-300">
-              SkillSwap
+              PeerLoom
             </Link>
           </div>
           

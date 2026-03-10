@@ -46,7 +46,7 @@ function App() {
             
             <Sparkles className="w-16 h-16 text-primary-500 mb-6 loader-logo relative z-10" />
             <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-emerald-300 relative z-10 tracking-tight">
-              SkillSwap
+              PeerLoom
             </h1>
             
             <div className="mt-8 flex gap-2">

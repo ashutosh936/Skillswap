@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const Certifications = () => {
     const certificates = [
         { id: 'CERT-001', name: 'Master React Patterns', date: 'October 12, 2024', issuer: 'Sarah Jenkins (Top 1% Mentor)', skill: 'React', valid: true, icon: <Code className="w-8 h-8" />, color: 'text-blue-500', bg: 'bg-blue-500/10', border: 'border-blue-500/20' },
-        { id: 'CERT-002', name: 'Backend Scalability Expert', date: 'September 05, 2024', issuer: 'SkillSwap Platform', skill: 'Node.js', valid: true, icon: <Database className="w-8 h-8" />, color: 'text-emerald-500', bg: 'bg-emerald-500/10', border: 'border-emerald-500/20' },
+        { id: 'CERT-002', name: 'Backend Scalability Expert', date: 'September 05, 2024', issuer: 'PeerLoom Platform', skill: 'Node.js', valid: true, icon: <Database className="w-8 h-8" />, color: 'text-emerald-500', bg: 'bg-emerald-500/10', border: 'border-emerald-500/20' },
         { id: 'CERT-003', name: 'UI/UX Design Fundamentals', date: 'November 20, 2024', issuer: 'Priya Design (Level 6 Mentor)', skill: 'UI Design', valid: true, icon: <PenTool className="w-8 h-8" />, color: 'text-pink-500', bg: 'bg-pink-500/10', border: 'border-pink-500/20' },
         { id: 'CERT-004', name: 'Python Data Science Pro', date: 'December 01, 2024', issuer: 'Dr. Chen Wei (AI Pioneer)', skill: 'Python', valid: true, icon: <Cpu className="w-8 h-8" />, color: 'text-yellow-500', bg: 'bg-yellow-500/10', border: 'border-yellow-500/20' },
         { id: 'CERT-005', name: 'Web3 & Smart Contract Developer', date: 'August 18, 2024', issuer: 'Sofia Web3 (Web3 Builder)', skill: 'Solidity', valid: true, icon: <Globe className="w-8 h-8" />, color: 'text-purple-500', bg: 'bg-purple-500/10', border: 'border-purple-500/20' },
@@ -30,7 +30,7 @@ const Certifications = () => {
             </style></head><body>
             <div class="cert-border">
                 <div class="badge">Verified Digital Credential</div>
-                <h1>SkillSwap</h1>
+                <h1>PeerLoom</h1>
                 <p class="meta">Certificate of Achievement</p>
                 <h2>${cert.name}</h2>
                 <p class="meta">Issued by: ${cert.issuer}</p>
