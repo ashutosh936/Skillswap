@@ -78,10 +78,26 @@ function App() {
                 <Chat />
               </ProtectedRoute>
             } />
-            <Route path="/leaderboards" element={<Leaderboards />} />
-            <Route path="/communities" element={<Communities />} />
-            <Route path="/marketplace" element={<Marketplace />} />
-            <Route path="/ai-mentor" element={<AiMentorBot />} />
+            <Route path="/leaderboards" element={
+              <ProtectedRoute>
+                <Leaderboards />
+              </ProtectedRoute>
+            } />
+            <Route path="/communities" element={
+              <ProtectedRoute>
+                <Communities />
+              </ProtectedRoute>
+            } />
+            <Route path="/marketplace" element={
+              <ProtectedRoute>
+                <Marketplace />
+              </ProtectedRoute>
+            } />
+            <Route path="/ai-mentor" element={
+              <ProtectedRoute>
+                <AiMentorBot />
+              </ProtectedRoute>
+            } />
             <Route path="/calendar" element={
               <ProtectedRoute>
                 <Calendar />
